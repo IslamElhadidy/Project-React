@@ -1,0 +1,59 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.video {
+    padding: 80px 0;
+}
+.video .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row-reverse;
+}
+@media (max-width:991px) {
+    .video .container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:767px) {
+    .video .container {
+        text-align: start;
+        padding: 0 40px;
+    }
+}
+.video .left h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: var(--primaryColor);
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+
+.video .left span {
+    color: var(--grayColor);
+}
+
+
+.video .left p {
+    color: var(--grayColor);
+    padding-bottom: 20px;
+}
+
+.video .right .video-p {
+    width: 470px;
+    height: 300px;
+}
+@media (max-width:576px) {
+    .video .right .video-p {
+        width: 100%;
+    }
+}
+

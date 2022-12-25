@@ -1,0 +1,42 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.row img {
+    width: 100%;
+}
+.row h3 {
+    color: var(--primaryColor);
+    font-size: 17px;    
+    padding-top: 15px;
+}
+@media (max-width:757px) {
+    .row h3 {
+        font-size: 13px;
+    }
+}
+@media (max-width:576px) {
+    .row h3 {
+        font-size: 10px;
+    }
+}
+.row span {
+    color: var(--grayColor);
+    font-size: 12px;
+}
+@media (max-width:757px) {
+    .row span {
+        font-size: 12px;
+    }
+}
+

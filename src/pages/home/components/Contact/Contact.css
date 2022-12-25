@@ -1,0 +1,120 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.contact {
+    padding: 60px 0;
+    background: url(../../../../images/contact/contact-bg.jpg) fixed ;
+    background-size: cover;
+    color: white;
+}
+.contact .container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+@media (max-width:992px) {
+    .contact .container {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+@media (max-width:767px) {
+    .contact .container {
+        padding: 0 30px;
+    }
+}
+.contact .container .left h4 {
+    font-size: 30px;
+    color: var(--secondaryColor);
+    padding-bottom: 20px;
+}
+.contact .container .left span {
+    color: var(--primaryColor);
+}
+.contact .container .left p {
+    color: var(--grayColor);
+    margin-bottom: 20px;
+    width: 76%;
+}
+@media (max-width:992px) {
+    .contact .container .left p {
+        width: 100%;
+    }
+}
+
+.contact .container .left .contact-btn {
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 7px 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    border-radius: 7px;
+}
+
+.contact .container .right {
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px;
+
+}
+
+.contact .container .right h4 {
+    font-size: 30px;
+    color: var(--secondaryColor);
+    padding-bottom: 20px;
+}
+.contact .container .right span {
+    color: var(--primaryColor);
+}
+.contact .container .right .contact-info {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact .container .right .contact-info input {
+    border: none;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--grayColor);
+    width: 300px;
+}
+@media (max-width:992px) {
+    .contact .container .right .contact-info input {
+        width: 100%;
+    }
+}
+.contact .container .right .contact-info input:focus {
+    outline: none;
+}
+.contact .container .right .contact-info .contact-btn-right {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+    width: fit-content;
+    background-color: var(--secondaryColor);
+    color: white;
+    font-size: 15px;
+    border: 1.5px solid white;
+    padding: 6px 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+}
+@media (max-width:992px) {
+    .contact .container .right .contact-info .contact-btn-right  {
+        margin-top: 0px
+    }
+}

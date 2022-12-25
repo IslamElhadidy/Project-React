@@ -1,0 +1,53 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+
+.overview .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:576px) {
+    .overview .data {
+        padding: 0 10px;
+    }
+}
+
+.overview h2 {
+    color: #d4d4d4;
+    padding-top: 20px;
+}
+@media (max-width:767px) {
+    .overview h2  {
+        font-size: 10px;
+    }
+}
+.overview p {
+    color: #707070;
+    line-height: 1.7;
+    text-align: center;
+    padding-top: 20px;
+}
+@media (max-width:767px) {
+    .overview p  {
+        font-size: 7px;
+    }
+}
+@media (max-width:576px) {
+    .overview p  {
+        font-size: 5px;
+    }
+}
+.icon {
+    font-size: 40px;
+    color: #f2545f;
+}
+@media (max-width:767px) {
+    .icon  {
+        font-size: 26px;
+    }
+}

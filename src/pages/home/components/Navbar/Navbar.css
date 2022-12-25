@@ -1,0 +1,59 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+
+
+.navbar {
+    background-color: var(--secondaryColor);
+    color: white;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    text-shadow: 0px 0px 10px;
+}
+.navbar .logo {
+    font-size: 25px;
+}
+.navbar .logo span {
+    color: var(--primaryColor);
+}
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+@media (max-width:992px) {
+    .navbar .container{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.navbar li a {
+   color: white;
+   transition: 0.5s;
+}
+@media (max-width:757px) {
+    .navbar ul {
+        gap: 10px;
+    }
+    .navbar li a {
+        font-size: 10px;
+    }
+}
+.navbar li a:hover,
+.navbar li a.active {
+    color: var(--primaryColor);
+}

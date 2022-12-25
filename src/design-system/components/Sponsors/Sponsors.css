@@ -1,0 +1,17 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.sponsorss {
+    background-color: #FCFAFC;
+    padding: 50px 60px;
+}
+.sponsorss h2 {
+    color: var(--primaryColor);
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+

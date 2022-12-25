@@ -1,0 +1,41 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+.data-spon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+@media (max-width:992px) {
+    .data-spon {
+        flex-direction: column;
+
+    }
+}
+
+.sponsors{
+    padding: 70px 0;
+}
+.sponsors .title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.sponsors h4 {
+    color: var(--secondaryColor);
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.sponsors h4 span {
+    color: var(--primaryColor);
+}
+.sponsors p {
+    color: var(--grayColor);
+}
+@media (max-width:767px) {
+    .sponsors p {
+        padding: 0 20px;
+    }
+}

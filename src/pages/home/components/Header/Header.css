@@ -1,0 +1,74 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+header {
+    height: 100vh;
+    background: url(../../../../images/header/intro-bg.jpg) fixed ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: -20px;
+    
+}
+header span {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    
+}
+header .btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+header .btn .btn-1 {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1.5px solid white;
+    padding: 7px 13px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+header .btn .btn-1:hover {
+    background-color: white;
+    color: var(--primaryColor);
+    /* border-color: var(--primaryColor); */
+}
+header .btn .btn-2 {
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 15px;
+    border: 1.5px solid white;
+    padding: 7px 13px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header .btn .btn-2:hover {
+    background-color: white;
+    color: var(--primaryColor);
+    /* border-color: var(--primaryColor); */
+}

@@ -1,0 +1,62 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion .data {
+    width: 70%;
+}
+@media (max-width:767px) {
+    .accordion .data {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.accordion .data .box{
+    margin-bottom: 10px;
+}
+.accordion .data .box .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.accordion .data .box .title h2 {
+    font-size: 17px;
+    font-weight: normal;
+}
+@media (max-width:767px) {
+    .accordion .data .box .title h2 {
+        font-size: 13px;
+    }
+}
+.accordion .data .box footer{
+    display: flex;
+    flex-direction: column;
+    color: var(--grayColor);
+    box-shadow: 3px 4px 6px -4px var(--grayColor);
+    height: 0;
+    overflow: hidden;
+}
+.accordion .data .box footer span {
+    padding-bottom: 10px;
+}
+@media (max-width:767px) {
+    .accordion .data .box footer span{
+        font-size: 13px;
+    }
+}
+.accordion .data .box .show  {
+    height: auto;
+    max-height: 999px;
+    padding-top: 20px;
+    padding: 7px 20px;
+}

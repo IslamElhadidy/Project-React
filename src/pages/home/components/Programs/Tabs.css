@@ -1,0 +1,17 @@
+.tabs {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 20px;
+}
+@media (max-width:767px) {
+    .tabs {
+        justify-content: center;
+    }
+}
+.tabs span {
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+

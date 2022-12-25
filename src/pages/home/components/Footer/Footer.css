@@ -1,0 +1,53 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+
+footer .container {
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+footer h4 {
+    color: var(--grayColor) ;
+    font-weight: normal;
+}
+@media (max-width:576px) {
+    footer h4 {
+        font-size: 14px;
+    }
+}
+footer h4 span{
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+footer .links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:576px) {
+    footer .links {
+        gap: 10px;
+    }
+}
+footer .links a {
+    color: var(--grayColor);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .links a:hover {
+    background-color: var(--primaryColor);
+    color: white;
+    
+}

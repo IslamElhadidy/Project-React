@@ -1,0 +1,32 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.accordion .text {
+    padding: 60px 0;
+}
+.accordion h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: var(--secondaryColor);
+    
+}
+.accordion h4 span {
+    color: var(--primaryColor) ;
+}
+.accordion p {
+    text-align: center;
+    color: var(--grayColor);
+}
+@media (max-width:767px) {
+    .accordion p {
+        padding: 0 20px;
+    }
+}
+.accordion-data {
+    padding-bottom: 60px;
+}

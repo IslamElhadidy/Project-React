@@ -1,0 +1,15 @@
+.overview {
+    background-color: #222;
+    padding: 20px 0;
+}
+.overviewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 50px;
+}
+@media (max-width:576px) {
+    .overviewContainer {
+        gap: 10px;
+    }
+}

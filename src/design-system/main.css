@@ -1,0 +1,51 @@
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+/* Mid Devices */
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+/* Desktop Devices */
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+/* Large Devices */
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+.container{
+    margin: 0 auto;
+}   
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

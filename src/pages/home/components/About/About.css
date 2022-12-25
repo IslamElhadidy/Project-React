@@ -1,0 +1,50 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.about {
+    padding: 100px 0;
+}
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:991px) {
+    .about .container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:767px) {
+    .about .container {
+        text-align: start;
+        padding: 0 40px;
+    }
+}
+.about .left h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: var(--primaryColor);
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+
+.about .left span {
+    color: var(--grayColor);
+}
+
+
+.about .left p {
+    color: var(--grayColor);
+    padding-bottom: 50px;
+}
+
+.about .right img {
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+:root {
+    --primaryColor: #f2545f;
+    --secondaryColor : #090707;
+    --grayColor: #707070;
+}
+
+.venue {
+    background: url(../../../../images/venue/venue-bg.jpg) fixed ;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+.venue .container {
+    padding: 0 20px;
+}
+.venue .text {
+    width: 50%;
+}
+
+@media (max-width:992px) {
+    .venue .text {
+        width: 100%;
+    }
+}
+.venue .text h4{
+    color: var(--primaryColor);
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.venue .text p {
+    color: var(--grayColor);
+    padding-bottom: 50px;
+}
+.venue  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: var(--secondaryColor);
+}
+.venue  .info span:nth-child(2) {
+    margin-left: -2px;
+}
+.venue  .info h5 {
+    font-size: 16px;
+}
+.venue  .info h5,
+.venue  .info span {
+    font-weight: bolder;
+}

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Project-React/static/css/main.c1350442.css",
+    "main.js": "/Project-React/static/js/main.03241da8.js",
+    "static/media/intro-bg.jpg": "/Project-React/static/media/intro-bg.5759acf1c9f729de7251.jpg",
+    "static/media/5.jpg": "/Project-React/static/media/5.2ecf8aa05d0d93a7bbb0.jpg",
+    "static/media/1.jpg": "/Project-React/static/media/1.89ae60c29254c28f9944.jpg",
+    "static/media/4.jpg": "/Project-React/static/media/4.7f131c573a2e9a3db5ec.jpg",
+    "static/media/3.jpg": "/Project-React/static/media/3.f1ed8fdaff8f5c762e6b.jpg",
+    "static/media/overview-img.jpg": "/Project-React/static/media/overview-img.4f6b588236c9dd2cb60d.jpg",
+    "static/media/register-bg.jpg": "/Project-React/static/media/register-bg.75b9aa61396797ed36e0.jpg",
+    "static/media/contact-bg.jpg": "/Project-React/static/media/contact-bg.2d2570ec5a57832ba97f.jpg",
+    "static/media/venue-bg.jpg": "/Project-React/static/media/venue-bg.ec15499101b71fbbc8e7.jpg",
+    "static/media/2.jpg": "/Project-React/static/media/2.570d225d9db1021b18cb.jpg",
+    "static/media/firstday-1.jpg": "/Project-React/static/media/firstday-1.d5739c8d7e61bbc89d06.jpg",
+    "static/media/firstday-2.jpg": "/Project-React/static/media/firstday-2.09bb417962228b11c8d0.jpg",
+    "static/media/firstday-3.jpg": "/Project-React/static/media/firstday-3.f1eb626c3f20f4376195.jpg",
+    "static/media/secondday-1.jpg": "/Project-React/static/media/secondday-1.6f3aa5e806fa960efb1b.jpg",
+    "static/media/thirdday-2.jpg": "/Project-React/static/media/thirdday-2.8657414eb314b2d37df7.jpg",
+    "static/media/secondday-3.jpg": "/Project-React/static/media/secondday-3.367a586beaf402e9b9c6.jpg",
+    "static/media/secondday-2.jpg": "/Project-React/static/media/secondday-2.65dd5d11e79c06dcd715.jpg",
+    "static/media/thirdday-3.jpg": "/Project-React/static/media/thirdday-3.8643a429da99cc65c430.jpg",
+    "static/media/thirdday-1.jpg": "/Project-React/static/media/thirdday-1.df238373bde6c913f1be.jpg",
+    "index.html": "/Project-React/index.html",
+    "main.c1350442.css.map": "/Project-React/static/css/main.c1350442.css.map",
+    "main.03241da8.js.map": "/Project-React/static/js/main.03241da8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1350442.css",
+    "static/js/main.03241da8.js"
+  ]
+}
